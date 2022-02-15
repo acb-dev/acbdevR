@@ -12,4 +12,6 @@ resultado <- paste(x, "x", fator, " = ", y)
 
 print(formatC(resultado, format = "f"))
 }
+
+
 }
