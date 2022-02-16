@@ -1,32 +1,18 @@
-#' @title Faz a Soma de Dois Numeros
-#' @name soma
+#' @title Calcula juros simples.
+#' @name jurosimples
 #'
-#' @description Uma (incrivel) funcao que pega dois numeros e faz a
-#'     soma. Utilize este campo para descrever melhor o proposito de
-#'     sua funcao e o que ela e capaz de fazer.
+#' @description Faz o calculo de juros simples.
 #'
-#' @param x Um numero
-#' @param y Outro numero
-#'
-#' @details Utilize este campo para escrever detalhes mais tecnicos da
-#'     sua funcao (se necessario), ou para detalhar melhor como
-#'     utilizar determinados argumentos.
-#'
-#' @return A soma dos numeros \code{x} e \code{y}.
-#'
-#' @author Fernando Mayer
-#'
-#' @seealso \code{\link[base]{sum}}, \code{\link[base]{+}}
+#' @param c, o valor principal
+#' @param i, A taxa de juros representada por um valor inteiro.
+#' @param t, a quantidade de períodos envolvidos, ex: quantidade de meses.
+#
+#' @author Alexandre Barbosa | acbdev@hotmail.com | +55 31 9.8370-8251
 #'
 #' @examples
-#' soma(2, 2)
-#'
-#' x <- 3
-#' y <- 4
-#' soma(x = x, y = y)
-#'
+#' jurosimples(1000,5,12)
 #' @export
 jurosimples <- function(c,i,t) {
-j <- c * (1 + (i/100) * t)
+j <- (c * (1 + (i/100) * t)) - c
 print(j)
 }
