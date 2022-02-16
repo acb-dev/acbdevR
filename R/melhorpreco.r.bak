@@ -1,29 +1,11 @@
-#' @title Faz a Soma de Dois Numeros
-#' @name soma
+#' @title Comparacao de preco entre 2 produtos
+#' @name melhorpreco
 #'
-#' @description Uma (incrivel) funcao que pega dois numeros e faz a
-#'     soma. Utilize este campo para descrever melhor o proposito de
-#'     sua funcao e o que ela e capaz de fazer.
+#' @description Informe o preco unitario e a quantidade de 2 produtos e tenha o retorno de qual e o mais economico.
 #'
-#' @param x Um numero
-#' @param y Outro numero
+#' @details Siga as instrucoes fornecidas na tela para obter o resultado.
 #'
-#' @details Utilize este campo para escrever detalhes mais tecnicos da
-#'     sua funcao (se necessario), ou para detalhar melhor como
-#'     utilizar determinados argumentos.
-#'
-#' @return A soma dos numeros \code{x} e \code{y}.
-#'
-#' @author Fernando Mayer
-#'
-#' @seealso \code{\link[base]{sum}}, \code{\link[base]{+}}
-#'
-#' @examples
-#' soma(2, 2)
-#'
-#' x <- 3
-#' y <- 4
-#' soma(x = x, y = y)
+#' @author Alexandre Barbosa | acbdev@hotmail.com | +55 31 9.8370-8251
 #'
 #' @export
 melhorpreco <- function() { 
@@ -43,7 +25,7 @@ preco2 <- scan(nmax=1)
 unit1 = preco1/qtde1
 unit2 = preco2/qtde2
 
-tantofaz <- paste("Ambos os produtos possuem o preço unitário de", "unit1", "sendo assim tanto faz comprar um ou outro")
+tantofaz <- paste("Ambos os produtos possuem o preço unitário de", unit1, "sendo assim tanto faz comprar um ou outro")
 prod1 <- paste("O produto mais barato é o produto nº 1 com o preço unitário" ,unit1," , o preço unitário do produto nº 2 é ", unit2)
 prod2 <- paste("O produto mais barato é o produto nº 2 com o preço unitário" ,unit2," , o preço unitário do produto nº 1 é ", unit1)
 
