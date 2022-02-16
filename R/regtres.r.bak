@@ -1,12 +1,11 @@
-#' @title Faz a Soma de Dois Numeros
-#' @name soma
+#' @title Calcula regra de 3 simples.
+#' @name regtres
 #'
-#' @description Uma (incrivel) funcao que pega dois numeros e faz a
-#'     soma. Utilize este campo para descrever melhor o proposito de
-#'     sua funcao e o que ela e capaz de fazer.
+#' @description Calcula regra de 3 simples.
 #'
-#' @param x Um numero
-#' @param y Outro numero
+#' @param a, primeira grandeza
+#' @param b, segunda grandeza
+#' @param c, terceira grandeza
 #'
 #' @details Utilize este campo para escrever detalhes mais tecnicos da
 #'     sua funcao (se necessario), ou para detalhar melhor como
@@ -27,6 +26,6 @@
 #'
 #' @export
 regtres <- function(a,b,c) {
-x = c/b*a
+x = c*b/a
 print(x)
 }
