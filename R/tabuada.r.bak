@@ -1,30 +1,13 @@
-#' @title Faz a Soma de Dois Numeros
-#' @name soma
+#' @title Exibe a tabuada do número fornecido.
+#' @name tabuada
 #'
-#' @description Uma (incrivel) funcao que pega dois numeros e faz a
-#'     soma. Utilize este campo para descrever melhor o proposito de
-#'     sua funcao e o que ela e capaz de fazer.
+#' @description Exibe a tabuada do número fornecido exibindo os produtos da multiplicação dele iniciando pelo número 1 até o número 10.
 #'
-#' @param x Um numero
-#' @param y Outro numero
+#' @param x O número o qual deseja-se saber a tabuada.
 #'
-#' @details Utilize este campo para escrever detalhes mais tecnicos da
-#'     sua funcao (se necessario), ou para detalhar melhor como
-#'     utilizar determinados argumentos.
-#'
-#' @return A soma dos numeros \code{x} e \code{y}.
-#'
-#' @author Fernando Mayer
+#' @author Alexandre Barbosa | acbdev@hotmail.com | +55 31 9.8370-8251
 #'
 #' @seealso \code{\link[base]{sum}}, \code{\link[base]{+}}
-#'
-#' @examples
-#' soma(2, 2)
-#'
-#' x <- 3
-#' y <- 4
-#' soma(x = x, y = y)
-#'
 #' @export
 tabuada <- function(x) {
 

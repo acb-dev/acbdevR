@@ -1,13 +1,12 @@
-#' @title Exibe a tabuada do número fornecido.
+#' @title Exibe a tabuada do numero fornecido.
 #' @name tabuada
 #'
-#' @description Exibe a tabuada do número fornecido exibindo os produtos da multiplicação dele iniciando pelo número 1 até o número 10.
+#' @description Exibe a tabuada do numero fornecido exibindo os produtos da multiplicacao dele, iniciando pelo numero 1 ate o numero 10.
 #'
-#' @param x O número o qual deseja-se saber a tabuada.
+#' @param x O numero o qual deseja-se saber a tabuada.
 #'
 #' @author Alexandre Barbosa | acbdev@hotmail.com | +55 31 9.8370-8251
 #'
-#' @seealso \code{\link[base]{sum}}, \code{\link[base]{+}}
 #' @export
 tabuada <- function(x) {
 
