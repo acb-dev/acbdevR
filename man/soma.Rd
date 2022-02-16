@@ -33,17 +33,13 @@ A soma dos numeros \code{x} e \code{y}.
 A soma dos numeros \code{x} e \code{y}.
 
 A soma dos numeros \code{x} e \code{y}.
-
-A soma dos numeros \code{x} e \code{y}.
 }
 \description{
 Uma (incrivel) funcao que pega dois numeros e faz a
 soma. Utilize este campo para descrever melhor o proposito de
 sua funcao e o que ela e capaz de fazer.
 
-Uma (incrivel) funcao que pega dois numeros e faz a
-soma. Utilize este campo para descrever melhor o proposito de
-sua funcao e o que ela e capaz de fazer.
+Calcula juros tanto simples como compostos, basta seguir as instrucoes apresentadas na tela fornecendo as informacoes solicitadas.
 
 Uma (incrivel) funcao que pega dois numeros e faz a
 soma. Utilize este campo para descrever melhor o proposito de
@@ -58,10 +54,6 @@ soma. Utilize este campo para descrever melhor o proposito de
 sua funcao e o que ela e capaz de fazer.
 }
 \details{
-Utilize este campo para escrever detalhes mais tecnicos da
-sua funcao (se necessario), ou para detalhar melhor como
-utilizar determinados argumentos.
-
 Utilize este campo para escrever detalhes mais tecnicos da
 sua funcao (se necessario), ou para detalhar melhor como
 utilizar determinados argumentos.
@@ -103,16 +95,8 @@ x <- 3
 y <- 4
 soma(x = x, y = y)
 
-soma(2, 2)
-
-x <- 3
-y <- 4
-soma(x = x, y = y)
-
 }
 \seealso{
-\code{\link[base]{sum}}, \code{\link[base]{+}}
-
 \code{\link[base]{sum}}, \code{\link[base]{+}}
 
 \code{\link[base]{sum}}, \code{\link[base]{+}}
@@ -124,7 +108,7 @@ soma(x = x, y = y)
 \author{
 Fernando Mayer
 
-Fernando Mayer
+Alexandre Barbosa | acbdev@hotmail.com | +55 31 9.8370-8251
 
 Fernando Mayer
 
