@@ -1,5 +1,6 @@
 #' @title Calcula juros tanto simples como compostos.
-#' @name soma
+#'
+#' @name juros
 #'
 #' @description Calcula juros tanto simples como compostos, basta seguir as instrucoes apresentadas na tela fornecendo as informacoes solicitadas.
 #'
