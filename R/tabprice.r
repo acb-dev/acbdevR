@@ -1,3 +1,11 @@
+#' @title Calcula valores da tabela Price.
+#'
+#' @name tabprice
+#'
+#' @description Siga as instrucoes da tela e forneca as informacoes solicitadas para obter o resultado.
+#'
+#' @author Alexandre Barbosa | acbdev@hotmail.com | +55 9.8370-8251
+#' @export
 tabprice <- function() {
 
 print("Digite o valor valor do empréstimo")
@@ -13,12 +21,8 @@ i = itemp/100
 
 prestacao <- c * ((1 + i) ^ t * i) / ((1 + i)^t -1)
 
-retorno <- paste("Valor da prestação: ", round(prestacao,2), "Montante total: ", round(prestacao * t,2), "Valor dos juros: ", round((prestacao * t) - c,2))
+retorno <- paste("Valor da prestação: ",formatC(prestacao, decimal.mark = ",", big.mark = ".", width = 15, format = "f", digits = 2), "Montante total: ", formatC(prestacao * t, decimal.mark = ",", big.mark = ".", width = 15, format = "f", digits = 2), "Valor dos juros: ", formatC((prestacao * t) -c, decimal.mark = ",", big.mark = ".", width = 15, format = "f", digits = 2))
 
 print(retorno)
 
 }
-
-
-
-

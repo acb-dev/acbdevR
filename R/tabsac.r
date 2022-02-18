@@ -1,3 +1,11 @@
+#' @title Calcula valores da tabela SAC.
+#'
+#' @name tabsac
+#'
+#' @description Siga as instrucoes da tela e forneca as informacoes solicitadas para obter o resultado.
+#'
+#' @author Alexandre Barbosa | acbdev@hotmail.com | +55 9.8370-8251
+#' @export
 tabsac <- function () {
 
 print("Digite o valor do financiamento")
@@ -35,7 +43,7 @@ parcela <- parcela + 1
 j <- i * sd
 p <- q + j
 #result <- paste("|Parcela|", format(parcela, nsmall = 0, width = 3) , "|Saldo|", format(sd, nsmall = 2, width = 9), #"|Amotização|", format(a, nsmall = 2, width = 9), "|Quota de Amortização|", format(q, nsmall = 2, width = 9) , #"|Juros|", format(j, nsmall = 2, width = 9), "|Prestação|", format(p, nsmall =2, width = 9),"|")
-result <- paste("|", format(parcela, nsmall = 0, width = 5) , "|", format(sd, nsmall = 2, width = 9, decimal.mark = ","), "|", format(a, nsmall = 2, width = 11, decimal.mark = ","), "|", format(q, nsmall = 2, width = 20, decimal.mark = ",") , "|", format(j, nsmall = 2, width = 9, decimal.mark = ","), "|", format(p, nsmall =2, width = 9, decimal.mark = ","),"|")
+result <- paste("|", format(parcela, nsmall = 0, width = 5) , "|", format(sd, nsmall = 2, width = 9, decimal.mark = ",", digits = 2), "|", format(a, nsmall = 2, width = 11, decimal.mark = ",", digits = 2), "|", format(q, nsmall = 2, width = 20, decimal.mark = ",", digits = 2) , "|", format(j, nsmall = 2, width = 9, decimal.mark = ",", digits = 2), "|", format(p, nsmall =2, width = 9, decimal.mark = ",", digits = 2),"|")
 print(result)
 print("└--------------------------------------------------------------------------------┘")
 sd <- sd - q
