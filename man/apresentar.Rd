@@ -2,23 +2,32 @@
 % Please edit documentation in R/apresentar.r
 \name{apresentar}
 \alias{apresentar}
-\title{Calcula valores da tabela SAC.}
+\title{Lista de funcoes do pacote.}
 \usage{
 apresentar()
 }
 \description{
-Lista de funcoes contidas no pacote
 desconto(); Calculo de descontos.
+
 juros(); Calcula juros tanto simples como compostos, conforme escolha do usuario.
+
 jurocomposto(); Calcula juros compostos.
+
 jurosimples(); Calcula juros simples.
-melhorpreco(); Determina qual produto entre 2 é o mais economico.
+
+melhorpreco(); Determina qual produto entre 2 e o mais economico.
+
 regtres(); Calcula regra de 3 simples.
+
 resto(); Apresenta o resto da divisao exata, mas apresenta tambem o quociente da divisao com parte decimal.
+
 tabprice(); Calcula o valor da prestacao pelo metodo de tabela Price.
-tabsac(); Calcula o valor das prestações pelo metodo de tabela SAC apresentando uma tabela na tela.
-tabuda(); Exibe a tabuada do numero solicitado.
-Todas funões possuem ajuda disponível digitando o ponto de interrogacao antes de seus nomes sem os parenteses.
+
+tabsac(); Calcula o valor das prestacoes pelo metodo de tabela SAC apresentando uma tabela na tela.
+
+tabuada(); Exibe a tabuada do numero solicitado.
+
+Todas funcoes possuem ajuda disponivel digitando o ponto de interrogacao antes de seus nomes sem os parenteses.
 }
 \author{
 Alexandre Barbosa | acbdev@hotmail.com | +55 9.8370-8251
