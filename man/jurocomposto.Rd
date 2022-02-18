@@ -9,7 +9,7 @@ jurocomposto(c, i, t)
 \arguments{
 \item{c, }{Capital investido.}
 
-\item{i, }{A taxa de juros representada por um numero inteiro.}
+\item{i, }{A taxa de juros.}
 
 \item{t, }{quantidade de periodos, ex: quantidade de meses.}
 }

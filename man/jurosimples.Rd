@@ -7,9 +7,9 @@
 jurosimples(c, i, t)
 }
 \arguments{
-\item{c, }{o valor principal}
+\item{c, }{o valor do capital inicial.}
 
-\item{i, }{A taxa de juros representada por um valor inteiro.}
+\item{i, }{A taxa de juros.}
 
 \item{t, }{a quantidade de periodos envolvidos, ex: quantidade de meses.}
 }
