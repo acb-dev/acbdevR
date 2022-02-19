@@ -8,7 +8,7 @@
 #'
 #' @export
 juros <- function() {
-print("Digite 1 para juros simples e 2 para Juros Compostos [1/2]")
+print("Digite 1 para juros simples e 2 para juros compostos [1/2]")
 resposta <- scan(nmax = 1)
 print("Digite o valor do capital:")
 c <- scan(nmax = 1)
@@ -20,12 +20,18 @@ t <- scan(nmax = 1)
 
 if (resposta == 1) {
 
-j <- (c * (1 + (i/100) * t)) - c
+j <- (c * (1 + i * t)) - c
 
 } else if (resposta == 2) {
 
 j <- (c*(1 + i)^t) - c
 
 }
-print(j)
+linha1 <- paste("Capital : ", formatC(c, decimal.mark = ",", big.mark = ".", width = 15, format = "f", digits = 2))
+linha2 <- paste("Juros   : ", formatC(j, decimal.mark = ",", big.mark = ".", width = 15, format = "f", digits = 2))
+linha3 <- paste("Montante: ", formatC(c + j, decimal.mark = ",", big.mark = ".", width = 15, format = "f", digits = 2))
+
+print(linha1)
+print(linha2)
+print(linha3)
 }
